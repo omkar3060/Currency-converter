@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.converter {
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.converter input[type="number"] {
+    width: 150px;
+    padding: 8px;
+    margin-right: 10px;
+}
+
+.converter div{
+    margin-bottom: 10px;
+}
+
+.converter select {
+    padding: 8px;
+}
+
+.converter button {
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.converter button:hover {
+    background-color: #0056b3;
+}
